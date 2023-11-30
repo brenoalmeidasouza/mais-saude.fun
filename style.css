@@ -1,0 +1,110 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+}
+body{
+    background-color: black;
+}
+.player{
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
+h6{
+    color: white;
+    font-weight: normal;
+    font-size: 11px;
+}
+h5{
+    color: black;
+    font-weight: normal;
+    font-size: 11px;
+}
+.landing-page{
+    display: none;
+}
+.depoimentos-1, .sct2, .sct3, .sct4, .depoimentos-2, .sct6, .sct7, .sct8, .depoimentos-3, .sct-10, .depoimentos-4, .sct-11{
+    text-align: center;
+    padding: 40px 10%;
+}
+.depoimentos-1{
+    background-color: #dddddd;
+    margin-top: 50px;
+}
+.depoimentos-1 h1, .sct3 h1, .depoimentos-2 h1, .sct6 h1, .sct6 h4, .sct7 h1, .sct7 h3, .depoimentos-3 h1, .depoimentos-4 h1{
+    font-weight: 900;
+    color: #b30000;
+}
+iframe{
+    width: 90%;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+.depoimentos-1 img, .depoimentos-3 img, .depoimentos-4 img{
+    margin-top: 30px;
+    width: 90%;
+}
+.sct2, .sct4, .sct8, .sct-10, .sct-11{
+    background-color: #222222;
+}
+.sct2 h1, .sct4 h1, .sct8 h1, .sct-10 h1, .sct-11 h1{
+    font-weight: 900;
+    color: white;
+}
+.sct2 p, .sct4 p, .sct8 p, .sct-10 p, .sct-11 p{
+    color: white;
+}
+.sct3, .depoimentos-2, .depoimentos-3, .depoimentos-4{
+    background-color: #dddddd;
+}
+.sct6, .sct7{
+    background-color: white;
+    border-top: solid 1px white;
+    border-bottom: solid 1px white;
+
+}
+.sct6 img, .sct7 img{
+    width: 100%;
+}
+.sct-10 img{
+    width: 80%;
+    margin: 20px;
+}
+.landing-page a{
+    background-color: #f34f04;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: block;
+}
+footer{
+    background-color: #dddddd;
+    color: #222222;
+    /* position: absolute;
+    top: 100%;
+    transform: translateY(-100%); */
+    text-align: center;
+    padding: 10px 10%;
+}
+footer p{
+    font-size: 12px;
+}
+footer a{
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+}
+footer img{
+    width: 50%;
+}
+footer span{
+    color: #0099ff;
+    text-decoration: underline;
+}
